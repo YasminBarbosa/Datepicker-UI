@@ -1,0 +1,118 @@
+.calendar{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+input[type=text]{
+	font-family: arial;
+	font-size: 19px;
+	width: 78%;
+	padding: 10px;
+  	margin: 7px 0;
+  	box-sizing: border-box;
+
+}
+.btn-calendar{
+  background-color: white;
+  color: black;
+  border: none;
+  color: black;
+  width: 40px;
+  height: 45px ;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-calendar:hover {
+	background-color: #555555;
+  	color: white;
+}
+
+.display-left{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 2px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.display-right{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 2px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.display-left:hover {
+	background-color: #555555;
+  	color: white;
+}
+
+.display-right:hover {
+	background-color: #555555;
+  	color: white;
+}
+
+.w3-third{
+	width: 200px;
+	margin-left: 35%;
+
+}
+
+.header {
+	font-family: arial;
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 110.5%;
+	height: 55px;
+}
+
+.week{
+	flex-direction: rows;
+}
+
+.days{
+	display: flex;
+	float:left;
+	font-family: arial;
+	font-size: 16px;
+	margin-left: 5%;
+}
+
+.month{
+	width: 120%;
+	height: 220px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.day{
+	
+	border: 1px solid black;
+	width: 30px;
+	height: 25px;
+	display: flex;
+	float: left;
+	padding-top: 10px;
+	justify-content: center;
+	font-family: arial;
+
+}
